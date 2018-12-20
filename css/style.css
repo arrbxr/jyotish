@@ -760,11 +760,11 @@ hr.bold {
 }
 
 .intro-content {
-	background: url(../img/dummy/bg1.jpg) no-repeat top center;
-	padding:200px 0 60px;
+	background: url(../img/slider/sl2.jpg) no-repeat top center;
+	
 }
 .intro-content.intro-nobg {
-	background:#fff;
+	
 	position:relative;
 	margin:0;
 	padding:140px 0 60px;
