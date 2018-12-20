@@ -655,13 +655,18 @@ hr.bold {
 ============================ */
 
 .home-section {
-    padding-top: 150px;
 	display:block;
     position:relative;
     z-index:120;
 	background-color: #fff;
 }
 
+.home-section p{
+	font-weight: 500;
+	word-spacing: 3px;
+	color: #302f2fc7 !important;
+	text-align: left;
+}
 
 .home-section.nopadding {
     padding-top: 0;
@@ -750,7 +755,7 @@ hr.bold {
 
 
 /* ===========================
---- Intro
+--- slider
 ============================ */
 
 .intro {
@@ -1617,7 +1622,7 @@ a.scrollup i:hover {
 	outline: none;
 	color: #fff;
 	text-decoration: none;
-	text-transform: uppercase;
+	
 	letter-spacing: 1px;
 	font-weight: 400;	
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
@@ -2066,4 +2071,33 @@ a.btn:focus{
 	.top-area {
 		display: none;
 	}
+}
+
+.heading{
+	font-family: 'Lora', serif;
+	color: #28c3ab;
+	margin-bottom: 5px;
+}
+
+.btn-small button a{
+	color: #28c3ab !important;
+}
+
+.btn-small button{
+	transition: 0.5s;
+	font-size: 13px !important;
+	padding: 3px;
+	letter-spacing: 2px;
+	font-family: 'Lora', serif;
+	background: none;
+	border-bottom: 2px solid #28c3ab;
+	border-radius: 50%;
+	outline: none;
+}
+.btn-small button:hover{
+	transition: 0.5s;
+	border-bottom: 0;
+	border-right: 10px solid #28c3ab;
+	border-radius: 50%;
+	outline: 0;
 }
